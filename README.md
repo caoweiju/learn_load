@@ -18,6 +18,7 @@
 1. [flex布局的先关学习和实践](https://github.com/caoweiju/learn_load/issues/7)
 
 ## `javascript`脚本类别
+1. [节流函数throttle和防抖函数debounce](https://github.com/caoweiju/learn_load/issues/11)
 
 ## `html`超文本标记语言
 
