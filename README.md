@@ -1,5 +1,4 @@
 # learn_load
-[![blog](https://img.shields.io/badge/build-passed-green.svg)](https://github.com/caoweiju/tc_blog)
 [![blog](https://img.shields.io/badge/version-v0.0.1-orange.svg)](https://www.caoweiju.com/)
 
 前端学习的足迹记录和tolist  
