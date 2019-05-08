@@ -30,6 +30,7 @@
 8. post-css的学习
 
 ## `javascript`脚本类别
+[参考学习](https://github.com/mqyqingfeng/Blog)
 
 1. [节流函数throttle和防抖函数debounce](https://github.com/caoweiju/learn_load/issues/11)
 
@@ -37,6 +38,7 @@
 1. 元素的Categories、context和Content model
 2. meta标签的认识
 3. 语义化标签的使用
+
 ## `web`浏览器相关
 1. 浏览器的url加载过程
 2. 浏览器的渲染过程
@@ -49,9 +51,11 @@
     * react代码组织和优化
     * react-router学习
     * react-redux的学习
+
 ## `tools`工具类相关
 1. [科学冲浪小结](https://github.com/caoweiju/learn_load/issues/14)
 2. nginx的学习
+
 ## `node`全栈相关
 1. node学习
 2. koa的学习
