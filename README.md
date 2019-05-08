@@ -21,18 +21,26 @@
 1. css的编写不完全指南
 2. BFC的学习
 3. 层叠上下文的学习
+3. 伪类和伪元素的学习
 4. 常见布局
 5. [flex布局的相关学习和实践](https://github.com/caoweiju/learn_load/issues/7)
+5. 移动端的适配和1px的实现
 6. css-next的学习
 7. sass的学习
 8. post-css的学习
 
 ## `javascript`脚本类别
+
 1. [节流函数throttle和防抖函数debounce](https://github.com/caoweiju/learn_load/issues/11)
 
 ## `html`超文本标记语言
-
+1. 元素的Categories、context和Content model
+2. meta标签的认识
+3. 语义化标签的使用
 ## `web`浏览器相关
+1. 浏览器的url加载过程
+2. 浏览器的渲染过程
+3. webcomponent的学习
 
 ## `lib`框架和库相关
 1. lodash学习
