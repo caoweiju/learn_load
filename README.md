@@ -43,6 +43,7 @@
 1. 浏览器的url加载过程
 2. 浏览器的渲染过程
 3. webcomponent的学习
+4. [前端安全只是须知XSS 和 CSRF tool](https://github.com/caoweiju/learn_load/issues/26)
 
 ## `lib`框架和库相关
 1. lodash学习
