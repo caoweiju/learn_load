@@ -44,6 +44,7 @@
 2. 浏览器的渲染过程
 3. webcomponent的学习
 4. [前端安全只是须知XSS 和 CSRF tool](https://github.com/caoweiju/learn_load/issues/26)
+5. [http从0.9、1.0、1.1、http2到QUIC的进化史](https://github.com/caoweiju/learn_load/issues/28)
 
 ## `lib`框架和库相关
 1. lodash学习
