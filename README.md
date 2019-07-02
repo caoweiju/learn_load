@@ -6,6 +6,26 @@
 关闭的`issue`表示已经学习并研究过的。  
 可以根据`issue`的分类进行查看
 
+## 测试
+<details>
+    <summary>2019-07 todo list</summary>
+    - [x] Finish my changes
+    - [ ] Push my commits to GitHub
+    - [ ] Open a pull request
+</details>
+
+<details>
+  <summary>如何编写todolist</summary>
+`todolist`是需要做一个能够有耐心的坚持者。
+</details>
+
+- [x] 每周记录
+- [x] 每月记录
+- [ ] 每季记录
+- [ ] 每年记录
+
+## 目录
+
 目前的问题分类：
 1. `css`样式类别
 2. `javascript`脚本类别
