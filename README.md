@@ -9,8 +9,9 @@
 ## 测试
 <details>
 <summary>2019-07 todo list</summary>
+
 - [x] Finish my changes
-[ ] Push my commits to GitHub
+- [ ] Push my commits to GitHub
 [ ] Open a pull request
 </details>
 
