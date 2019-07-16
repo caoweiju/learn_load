@@ -32,9 +32,19 @@
         </div>
     </div>
     <script>
+        /*
+        有一层遮罩蒙层覆盖在body上时，当我们滚动遮罩层，它下面的内容也会跟着一起滚动，看起来好像是上面的滚动事件穿透到下面的DOM元素上一样，
+        我们称之为滚动穿透。刚开始遇到这个问题的同学可能会联想到是不是由于事件冒泡到body上引起的，于是监听 scroll/touchmove事件，阻止事件冒泡。
+        事实上，这并没有什么卵用。
+        首先，一般而言滚动不是我们自己监听事件去改变元素的位置而实现的，当我们设置 overflow:scroll/auto时，实际上是浏览器原生实现的滚动效果。
+        其次， scroll事件对于普通Element元素是不冒泡的
+        所有的滚动都是在 Document上形成了一个 pending队列，然后按照一定的规则触发，
+        */
         const $root = document.querySelector('#root');
         $root.addEventListener('touchmove', function(e){
-            e.preventDefault();
+            // e.preventDefault();
+            e.stopPropagation()
+            e.stopImmediatePropagation();
         }, { passive: false })
     </script>
 </body>
