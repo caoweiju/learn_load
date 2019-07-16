@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>滚动穿透问题</title>
+    <style>
+        html,body{
+            height: 1200px;
+            width: 100%;
+            background-color: bisque;
+        }
+        .root {
+            height: 400px;
+            width: 100%;
+            margin-top: 50px;
+            background-color: aquamarine;
+            overflow: scroll;
+            padding: 0 15px;
+        }
+        .child{
+            height: 800px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div class="root">
+            <div class="child"></div>
+        </div>
+    </div>
+    <script>
+        const $root = document.querySelector('#root');
+        $root.addEventListener('touchmove', function(e){
+            e.preventDefault();
+        }, { passive: false })
+    </script>
+</body>
+</html>
